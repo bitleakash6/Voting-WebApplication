@@ -60,7 +60,7 @@ router.post('/login', async (req, res)=>{
     }
 });
 
-router.get('/profile', jwtAuthMiddleware, async (req, res)=>{
+router.get('/profile', async (req, res)=>{
     try{
         const userData = req.user;
         const userId = userData.id;
@@ -75,7 +75,7 @@ router.get('/profile', jwtAuthMiddleware, async (req, res)=>{
 
 
 //GET method to get the user
-router.get('/',jwtAuthMiddleware, async (req, res) => {
+router.get('/', async (req, res) => {
     try {
         const data = await User.find();
         console.log('data saved');
