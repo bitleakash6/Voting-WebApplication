@@ -74,7 +74,7 @@ router.get('/profile', jwtAuthMiddleware, async (req, res)=>{
 });
 
 
-//GET method to get the person
+//GET method to get the user
 router.get('/',jwtAuthMiddleware, async (req, res) => {
     try {
         const data = await User.find();
