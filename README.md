@@ -2,7 +2,7 @@
 
 🗳️ Welcome to our **voting web app!** Powered by Node.js, Express.js, MongoDB, and Mongoose, we've created a dynamic platform for all your voting needs. 🚀 Create, participate, and view real-time updates on polls, surveys, and elections with ease. 💻 Your voice matters, and we're here to make sure it's heard securely and conveniently. Let's vote together! 🎉
 
-[Live](https://votewaveindia-webapplication.onrender.com/)
+**[Live](https://votewaveindia-webapplication.onrender.com/)**
 
 ## Endpoints
 
